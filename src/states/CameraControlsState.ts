@@ -124,7 +124,7 @@ export class CameraControlsState extends BaseAppState {
     public resetCamera(): void {
         threeJsApp.getCamera().position.x = 0;
         threeJsApp.getCamera().position.y = 5;
-        threeJsApp.getCamera().position.z = 10;
+        threeJsApp.getCamera().position.z = 5;
         threeJsApp.getCamera().lookAt(0, 0, 0);
     };
 
